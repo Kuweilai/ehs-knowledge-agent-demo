@@ -65,6 +65,20 @@ ehs-knowledge-agent-demo/
 
 Agent 应优先基于知识库回答，并输出结构化内容，例如作业许可、风险识别、通风与气体检测、PPE、监护人、应急准备、作业前检查清单和整改建议。
 
+## Demo Screenshots
+
+### Dify Chat Demo
+
+![Dify Chat Demo](screenshots/dify_demo.png)
+
+### Dify Workflow Demo
+
+![Dify Workflow Demo](screenshots/dify_workflow_demo.png)
+
+### OpenClaw / Feishu Bot Demo
+
+![OpenClaw Feishu Bot Demo](screenshots/openclaw_chat_demo.png)
+
 ## 安全声明
 
 本项目仅用于 AI Agent Demo 和技术展示。`sample_knowledge_base/` 中的内容均为模拟资料，不构成正式法律法规、企业制度或专业 EHS 审核意见。涉及高风险作业时，必须以所在国家/地区法律法规、企业正式制度和专业 EHS 人员现场审核为准。
@@ -78,4 +92,3 @@ python scripts/scan_sensitive_files.py
 ```
 
 脚本会报告疑似真实密钥、占位符和技术说明词。占位符如 `YOUR_API_KEY_HERE` 可以保留；真实密钥、真实账号、真实 token、真实企业数据必须删除。
-
