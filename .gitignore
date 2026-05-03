@@ -1,0 +1,50 @@
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.crt
+secrets.*
+credentials.*
+config.local.*
+openclaw.json
+
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build output
+dist/
+build/
+.cache/
+.pytest_cache/
+
+# Docker and database storage
+volumes/
+docker/volumes/
+postgres/
+redis/
+weaviate/
+storage/
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large local artifacts
+*.mp4
+*.mov
+*.zip
+*.rar
+*.7z
+

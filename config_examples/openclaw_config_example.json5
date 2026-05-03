@@ -1,0 +1,24 @@
+{
+  // Public-safe example only. Do not commit real OpenClaw config files.
+  "project": "ehs-knowledge-agent-demo",
+  "agent": {
+    "name": "EHS Knowledge Agent",
+    "description": "Demo agent for EHS knowledge Q&A and risk guidance"
+  },
+  "model": {
+    "provider": "YOUR_MODEL_PROVIDER_HERE",
+    "endpoint": "YOUR_MODEL_ENDPOINT_HERE",
+    "apiKey": "YOUR_API_KEY_HERE",
+    "modelName": "YOUR_MODEL_NAME_HERE"
+  },
+  "knowledgeBase": {
+    "type": "markdown",
+    "path": "./sample_knowledge_base"
+  },
+  "feishu": {
+    "enabled": false,
+    "appId": "YOUR_FEISHU_APP_ID",
+    "appSecret": "YOUR_FEISHU_APP_SECRET"
+  }
+}
+
